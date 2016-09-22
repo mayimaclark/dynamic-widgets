@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>a3</title>
+    <link rel="stylesheet" type="text/css" href="indexStyle.css">
+    <script src="indexScript.js"></script>
+</head>
+<body>
+    <div id="content">
+        <table id="myTable">
+            <tr>
+                <th>
+                    Input
+                </th>
+                <th>
+                    Length
+                </th>
+            </tr>
+            <tr class="visible">
+                <td>
+                    <label>
+                        <input type="text" onkeyup="displayCount(0)">
+                    </label>
+                </td>
+                <td></td>
+            </tr>
+        </table>
+        <button class="button" onclick="add()">Add Cell</button>
+        <button class="button" onclick="hide()">Remove Cell</button>
+        <button class="button" onclick="sortVisible()">Sort Visible</button>
+    </div>
+</body>
+</html>
